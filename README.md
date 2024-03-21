@@ -49,11 +49,3 @@ Se integra con la API de OpenAI para analizar los datos y proporcionar insights 
 ## 📌 Versión
 
 1.0.0
-
-## ✒️ Autores
-
-- Tu nombre - _Trabajo Inicial_ - [TuUsuarioGithub](https://github.com/TuUsuarioGithub)
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles.
