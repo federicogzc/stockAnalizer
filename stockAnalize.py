@@ -24,7 +24,7 @@ def create_summary(ticker_symbol, data, analysis_type):
 ticker_symbol = "^GSPC"
 start_date = "2024-01-01"
 end_date = "2024-03-20"
-api_key = ("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")
+api_key = ("coloca to llave aquí")
 
 if api_key is None:
     raise ValueError("La API key no está configurada correctamente")
