@@ -41,7 +41,7 @@ Ten en cuenta que este script usa una API key de OpenAI. No la compartas ni la e
 
 A continuación se muestra el gráfico generado por el script:
 
-![Gráfico Acciones](/ruta/del/gráfico/mi_grafico.png)
+![Gráfico Acciones](/stockAnalizer/mi_grafico.png)
 
 ## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna sugerencia para mejorar este proyecto, siéntete libre de hacer un pull request o abrir un issue.
