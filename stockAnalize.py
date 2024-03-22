@@ -46,7 +46,7 @@ def plot_stock_data(data, ticker_symbol, file_name="mi_grafico.png"):
 ticker_symbol = "^GSPC"
 start_date = "2024-01-01"
 end_date = "2024-03-20"
-api_key = ("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")
+api_key = ("Aquí pones tu API_KEY de OpenAI")
 
 if api_key is None:
     raise ValueError("La API key no está configurada correctamente")
