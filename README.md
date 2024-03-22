@@ -1,51 +1,39 @@
-# Análisis de Datos del Mercado de Valores con OpenAI
+# Análisis de Acciones con yfinance y OpenAI 📈🤖
 
-🌐 _Descripción_: Este programa utiliza `yfinance` para obtener datos históricos del mercado de valores y analiza estos datos usando la API de OpenAI.
+Este programa utiliza yfinance para obtener datos históricos de acciones y OpenAI para analizar y predecir tendencias. Además, utiliza Matplotlib para visualizar los datos. Es perfecto para aquellos interesados en finanzas y análisis de datos.
 
-## 🚀 Comenzando
+## Requisitos Previos ✅
 
-Estos instrucciones te permitirán obtener una copia del proyecto en tu máquina local para propósitos de desarrollo y pruebas.
+Asegúrate de tener Python instalado en tu máquina. Además, necesitarás las siguientes bibliotecas:
+- yfinance
+- openai
+- matplotlib
+- pandas
 
-### 🔧 Pre-requisitos
+Puedes instalarlas utilizando pip:
 
-Qué cosas necesitas para instalar el software y cómo instalarlas:
+pip install yfinance openai matplotlib pandas
 
-- Python 3
-- `yfinance` library
-- `openai` library
-- Una clave de API de OpenAI
+#Configuración 🛠️
+Obtén una API key de OpenAI en https://beta.openai.com/signup/.
+Reemplaza el valor de api_key en el script con tu API key.
+#Uso 🚀
+Define el símbolo del ticker de la acción que deseas analizar (por ejemplo, ^GSPC para el S&P 500).
+Establece la fecha de inicio y fin para el período que deseas analizar.
+Ejecuta el script.
+El script realizará lo siguiente:
 
-### 🔑 Configuración
+Obtendrá datos históricos de la acción seleccionada.
+Calculará estadísticas básicas (valor máximo, mínimo y promedio).
+Creará un resumen de estos valores.
+Generará un gráfico con los datos de precio y volumen.
+Utilizará OpenAI para analizar el resumen y proporcionar una predicción.
 
-1. Instala las dependencias necesarias:
-    ```bash
-    pip install yfinance openai
-    ```
+#Contribuciones 🤝
+¡Las contribuciones a este proyecto son bienvenidas! Si tienes sugerencias o mejoras, no dudes en hacer un pull request o abrir un issue.
 
-2. Configura tu clave de API de OpenAI como una variable de entorno.
+#Licencia 📜
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-### 📋 Ejemplo de Uso
-
-1. Configura el símbolo del ticker que deseas analizar (por ejemplo, `^GSPC` para el S&P 500).
-2. Ejecuta el script para obtener un análisis del rendimiento histórico del ticker.
-
-## 📜 Código
-
-El script realiza los siguientes pasos:
-
-1. Obtiene los datos de la acción usando `yfinance`.
-2. Extrae la información y selecciona datos específicos para el análisis.
-3. Calcula un resumen de los datos históricos.
-4. Usa la API de OpenAI para obtener un análisis predictivo basado en estos datos.
-
-## 📊 Análisis
-
-El programa proporciona un análisis detallado de la tendencia de los precios basándose en los datos históricos del mercado de valores.
-
-## 🤖 Integración con OpenAI
-
-Se integra con la API de OpenAI para analizar los datos y proporcionar insights como un trader experimentado.
-
-## 📌 Versión
-
-1.0.0
+#Contacto 📬
+Twitter @FrederickCGZ
