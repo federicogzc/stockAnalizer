@@ -37,6 +37,12 @@ Además, obtendrá análisis predictivos de la tendencia de los datos mediante O
 ## 🔐 Seguridad
 Ten en cuenta que este script usa una API key de OpenAI. No la compartas ni la expongas públicamente.
 
+## 🖼️ Imagen del Gráfico
+
+A continuación se muestra el gráfico generado por el script:
+
+![Gráfico Acciones](/ruta/del/gráfico/mi_grafico.png)
+
 ## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna sugerencia para mejorar este proyecto, siéntete libre de hacer un pull request o abrir un issue.
 
